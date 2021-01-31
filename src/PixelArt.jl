@@ -1,5 +1,9 @@
 module PixelArt
 
-# Write your package code here.
+
+
+include("functions.jl")
+
+export pixel
 
 end
