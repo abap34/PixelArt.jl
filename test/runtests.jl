@@ -1,6 +1,10 @@
 using PixelArt
 using Test
+using TestImages
 
 @testset "PixelArt.jl" begin
-    # Write your tests here.
+    img = testimage("l")
+    @test typeof(pixel(img)) <: AbstractArray 
+    # A wrong path often causes passing nothing.
+    @test_throws MethodError pixel(nothing) 
 end
