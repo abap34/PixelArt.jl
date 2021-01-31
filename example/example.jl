@@ -1,5 +1,4 @@
 using Images
-using TestImages
 using PixelArt
 
 img = load("img.jpg")
