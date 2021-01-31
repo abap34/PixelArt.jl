@@ -12,7 +12,7 @@ QuartzImageIO = "dca85d43-d64c-5e67-8c65-017450d5d020"
 TestImages = "5e47fb64-e119-507b-a336-dd2b206d9990"
 
 [compat]
-julia = "1"
+julia = "1.5"
 Clustering = "0.14"
 Documenter = "0.24"
 ImageMagick = "1.1"
