@@ -1,0 +1,3 @@
+var documenterSearchIndex = {"docs":
+[{"location":"#","page":"Home","title":"Home","text":"CurrentModule = PixelArt","category":"page"},{"location":"#PixelArt-1","page":"Home","title":"PixelArt","text":"","category":"section"},{"location":"#","page":"Home","title":"Home","text":"","category":"page"},{"location":"#","page":"Home","title":"Home","text":"Modules = [PixelArt]","category":"page"},{"location":"#PixelArt.pixel-Tuple{AbstractArray}","page":"Home","title":"PixelArt.pixel","text":"pixel(img, [, n_color, w, h]) -> Array{RGB{Float64}}\n\nExamples\n\njulia> using PixelArt\n\njulia> using Images\n\njulia> img = load(\"img.jpg\");\n\njulia> img_pixel = pixel(img);\n\njulia> save(\"img_pixel.jpg\", img_pixel)\n\n\n\n\n\n","category":"method"}]
+}
