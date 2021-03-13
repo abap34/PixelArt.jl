@@ -12,7 +12,7 @@ end
 
 # Examples
 
-```jldoctest
+```
 julia> using PixelArt
 
 julia> using Images
